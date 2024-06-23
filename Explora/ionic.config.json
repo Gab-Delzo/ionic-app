@@ -1,0 +1,7 @@
+{
+  "name": "Explora",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
