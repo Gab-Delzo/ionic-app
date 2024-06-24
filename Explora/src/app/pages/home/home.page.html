@@ -1,0 +1,39 @@
+<ion-card-header [translucent]="true" class="ion-no-border">
+  <ion-toolbar color="ligth">
+    <div class="boton-center" >
+      <ion-img
+        src="https://aventurateaviajar.com/library/mod_noticias/images/aventurate-a-viajar.JPG"
+        alt="Viaje"
+        ></ion-img>
+      <ion-button fill="outline" size="small" class="labels" [routerLink]="['/login']" ><ion-icon name="log-out-outline"></ion-icon></ion-button>
+    </div>
+    <br>
+  </ion-toolbar>
+</ion-card-header>
+
+<ion-content >
+  <h2 class="ion-text-center labels"> Bienvenido </h2>
+  <ion-card-subtitle class="ion-text-center labels"> Conoce Nuestros Destinos</ion-card-subtitle>
+
+
+<ion-card>
+    <img alt="Asia" src="https://bk.asia-city.com/sites/default/files/styles/og_fb/public/1512840818_nativecover_seiko.jpg?itok=coUMG2Xl" />
+    <ion-card-content>
+    <ion-button expand="block" class="labels" (click)="Asia()"  color="dark">Asia</ion-button>
+</ion-card-content>
+</ion-card>
+
+<ion-card>
+  <img alt="Europa" src="https://elcomercio.pe/resizer/yZDL98BMOTFd8SIiOB28mkHiDCQ=/980x0/smart/filters:format(jpeg):quality(75)/cloudfront-us-east-1.images.arcpublishing.com/elcomercio/JKQJH7JWBZFZRMF73PZBOPNTPM.jpg" />
+    <ion-card-content>
+    <ion-button expand="block" class="labels" (click)="Europa()" color="dark">Europa</ion-button>
+    </ion-card-content>
+</ion-card>
+
+<ion-card>
+  <img alt="Africa" src="https://th.bing.com/th/id/OIP.yXymvh8y7KqQXBGT84ic1wHaDP?rs=1&pid=ImgDetMain" />
+    <ion-card-content>
+    <ion-button expand="block" class="labels" [routerLink]="['/Africa']" color="dark">Africa</ion-button>
+    </ion-card-content>
+  </ion-card>
+</ion-content>
