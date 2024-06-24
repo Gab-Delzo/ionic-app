@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@ionic-native/core": "^5.36.0",
+    "@ionic-native/geolocation": "^5.36.0",
+    "cordova-plugin-geolocation": "^5.0.0"
+  }
+}
