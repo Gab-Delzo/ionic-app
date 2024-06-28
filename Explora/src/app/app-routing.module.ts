@@ -25,6 +25,14 @@ const routes: Routes = [
   },  {
     path: 'europa',
     loadChildren: () => import('./pages/europa/europa.module').then( m => m.EuropaPageModule)
+  },
+  {
+    path: 'asia',
+    loadChildren: () => import('./pages/asia/asia.module').then( m => m.AsiaPageModule)
+  },
+  {
+    path: 'africa',
+    loadChildren: () => import('./pages/africa/africa.module').then( m => m.AfricaPageModule)
   }
 
 
