@@ -22,7 +22,8 @@ const routes: Routes = [
   {
     path: 'register',
     loadChildren: () => import('./pages/register/register.module').then( m => m.RegisterPageModule)
-  },  {
+  },
+  {
     path: 'europa',
     loadChildren: () => import('./pages/europa/europa.module').then( m => m.EuropaPageModule)
   },
@@ -33,6 +34,14 @@ const routes: Routes = [
   {
     path: 'africa',
     loadChildren: () => import('./pages/africa/africa.module').then( m => m.AfricaPageModule)
+  },
+  {
+    path: 'clima',
+    loadChildren: () => import('./pages/clima/clima.module').then( m => m.ClimaPageModule)
+  },
+  {
+    path: 'services',
+    loadChildren: () => import('./pages/services/dbservice.service').then( m => m.ServicesPageModule)
   }
 
 
