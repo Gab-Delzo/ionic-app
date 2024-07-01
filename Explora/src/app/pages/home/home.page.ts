@@ -8,6 +8,9 @@ import { AlertController } from '@ionic/angular';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage implements OnInit {
+clima() {
+throw new Error('Method not implemented.');
+}
   usuarioHome: string = "";
 
   constructor(private activerouter: ActivatedRoute, private router: Router){}

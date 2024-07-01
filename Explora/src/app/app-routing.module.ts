@@ -39,12 +39,6 @@ const routes: Routes = [
     path: 'clima',
     loadChildren: () => import('./pages/clima/clima.module').then( m => m.ClimaPageModule)
   },
-  {
-    path: 'services',
-    loadChildren: () => import('./pages/services/dbservice.service').then( m => m.ServicesPageModule)
-  }
-
-
 ];
 
 @NgModule({
