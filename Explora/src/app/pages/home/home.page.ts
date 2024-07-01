@@ -12,12 +12,16 @@ export class HomePage implements OnInit {
 
   constructor(private activerouter: ActivatedRoute, private router: Router){}
 
-  Europa(){
-    this.router.navigate(['/Europa'])
+  europa(){
+    this.router.navigate(['/europa'])
   }
 
-  Asia(){
-    this.router.navigate(['/Asia'])
+  asia(){
+    this.router.navigate(['/asia'])
+  }
+
+  africa(){
+    this.router.navigate(['/africa'])
   }
 
   ngOnInit() {
